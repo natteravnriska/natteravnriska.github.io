@@ -37,6 +37,30 @@ section {
     padding: 2vw 2vh;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+.video {
+
+}
+
+.punktliste {
+    font-size: 2vw;
+}
+
+.punktliste > ul > li {
+    margin-bottom: 20px;
+}
+
 footer {
     position: absolute;
     bottom: 0;
