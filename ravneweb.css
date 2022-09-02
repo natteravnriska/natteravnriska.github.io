@@ -1,0 +1,48 @@
+body {
+    font-family: 'Magra', 'Verdana', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: #fee715;
+    color: black;
+    /*min-height: 5vh;*/
+    /*max-height: 10vh;*/
+    height: max(15vw, 76px);
+    margin: 0;
+}
+
+header div {
+    font-size: max(4vw, 22px);
+    padding: 3vw 3vh;
+    max-width: 72vw;
+}
+
+.header-ribbon {
+    position: absolute;
+    right: 3vw;
+    z-index: 2;
+    display: block;
+    top: 2vw;
+    width: 19vw;
+}
+
+.video-portrait {
+    max-height: 60vh;
+    margin-top: max(20px, 2vw);
+}
+
+section {
+    padding: 2vw 2vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1vw 1vh;
+    height: 2vh;
+    font-size: min(2vw, 20px);
+    background-color: #c37500;
+}
