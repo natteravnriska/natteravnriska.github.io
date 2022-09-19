@@ -62,11 +62,11 @@ section {
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     padding: 1vw 1vh;
-    height: 2vh;
+    height: 3vh;
     font-size: min(2vw, 20px);
     background-color: #c37500;
 }
